@@ -29,7 +29,7 @@
 
 
 	//this part checks if file exists and then does 
-	router.get('/2', function(req, res){
+	router.get('/', function(req, res){
 		fs.exists(filePath, function(exists) {
 			if (exists) {
 				fs.stat(filePath, function(error, stats) {
