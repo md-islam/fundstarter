@@ -18,7 +18,7 @@
 	        });
 	        response.write(html)
 	        response.end();
-	    }).listen(process.env.PORT);
+	    }).listen(process.env.PORT||8080);
 	});
 
 
