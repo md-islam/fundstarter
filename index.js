@@ -18,7 +18,9 @@
 	        });
 	        response.write(html)
 	        response.end();
-	    }).listen(process.env.PORT||8080);
+	    }).listen(process.env.PORT||8080); //let's listen for both local and also make it compatible for Heroku
+
+
 	});
 
 
